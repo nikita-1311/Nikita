@@ -4,7 +4,7 @@ namespace Day_2
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int a = 5;
             int b = 71;
