@@ -9,6 +9,8 @@ namespace Day_2
             int a = 5;
             int b = 71;
             Console.WriteLine(a+b);
+            //conditional statements
+            //if-else
             if(a>7)
             {
                 Console.WriteLine("a is greater than 7");
