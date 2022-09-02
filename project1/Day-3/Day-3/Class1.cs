@@ -6,7 +6,7 @@ namespace Day_3
 {
     class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
             //find max number
             Console.WriteLine("Enter number1: ");
