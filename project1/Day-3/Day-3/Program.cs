@@ -6,6 +6,7 @@ namespace Day_3
     {
         static void Main1(string[] args)
         {
+            //odd and even
             Console.WriteLine("Enter a Number: ");
             int no = Convert.ToInt32(Console.ReadLine());
             if(no%2==0)

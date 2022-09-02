@@ -8,7 +8,7 @@ namespace Day_3
     {
         public static void Main()
         {
-            
+            //find max number
             Console.WriteLine("Enter number1: ");
             int num1 =Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter number2: ");
