@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Day_3
 {
     class Class8
     {
-        public static void Main()
+        public static void Main10()
         {
             //result vs out
             int a = 1, b = 4;
