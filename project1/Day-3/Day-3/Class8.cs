@@ -8,6 +8,7 @@ namespace Day_3
     {
         public static void Main()
         {
+            //result vs out
             int a = 1, b = 4;
             Console.WriteLine(Sum(ref a, ref b));
             int result;

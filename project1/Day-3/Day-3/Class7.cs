@@ -8,6 +8,7 @@ namespace Day_3
     {
         public static void Main9()
         {
+            //var vs dynamic
             var i = 1;//compile time 
             Type type = i.GetType();
             Console.WriteLine(i);
