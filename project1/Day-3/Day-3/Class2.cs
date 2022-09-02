@@ -6,8 +6,9 @@ namespace Day_3
 {
     class Class2
     {
-        public static void Main()
+        public static void Main3()
         {
+            //arithmatic operations
             Console.WriteLine("1. Addition");
             Console.WriteLine("2. Subtraction");
             Console.WriteLine("3. Multiplication");
