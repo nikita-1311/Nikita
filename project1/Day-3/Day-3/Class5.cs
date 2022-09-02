@@ -6,7 +6,7 @@ namespace Day_3
 {
     class Class5
     {
-        public static void Main()
+        public static void Main6()
         {
             //swapping using function and call by reference
             int a = 1, b = 2;
