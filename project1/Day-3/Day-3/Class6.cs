@@ -6,7 +6,7 @@ namespace Day_3
 {
     class Class6
     {
-        public static void Main()
+        public static void Main7()
         {
             //Int.TryParse
             Console.WriteLine("Enter a value: ");
