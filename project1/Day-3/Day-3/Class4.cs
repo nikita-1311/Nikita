@@ -6,7 +6,7 @@ namespace Day_3
 {
     class Class4
     {
-        public static void Main()
+        public static void Main5()
         {
             //swapping using function and call by value
             int a = 1,b = 2;
