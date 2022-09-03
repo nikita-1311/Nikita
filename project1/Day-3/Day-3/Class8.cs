@@ -4,7 +4,7 @@ namespace Day_3
 {
     class Class8
     {
-        public static void Main10()
+        public static void Main9()
         {
             //result vs out
             int a = 1, b = 4;

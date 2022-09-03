@@ -8,32 +8,41 @@ namespace Day_3
     {
         public static void Main()
         {
-            SumIN(1, 2);
-            int result;
-            SumOut(1, 2, out result);
-            Console.WriteLine("Output from output parameter " + result);
-            SumNamed(b: 1, c: 2, a: 3);
-            SumOptional(10, 10);
-        }
-        public static void SumIN(in int a, in int b)//input parameters
-        {
-            Console.WriteLine(a + b);
-        }
-        public static void SumOut(int a, int b, out int c)
-        {
-            c = a + b;
-        }
+            //array
+            int[] sampleaaray = new int[3];
+            for (int i = 0; i < sampleaaray.Length; i++)
+            {
+                Console.WriteLine("Please enter the value for sampleaaray[" + i + "]= ");
+                sampleaaray[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            for (int i = 0; i < sampleaaray.Length; i++)
+            {
+                Console.Write("the value of sampleaaray[" + i + "]= ");
+                Console.WriteLine(sampleaaray[i]);
+            }
+            //loops
+            Console.WriteLine("===============For Loop==========");
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("===============WHile Loop==========");
+            //entry controlled loop
+            int j = 0;
+            while (j < 3)
+            {
+                Console.WriteLine(j);
+                j++;
+            }
+            Console.WriteLine("===============Do WHile Loop==========");
 
-        public static void SumNamed(int a, int b, int c)
-        {
-            Console.WriteLine("sum from Named parameters" + (a + b + c));
-            Console.WriteLine("b= " + b);
-            Console.WriteLine("c= " + c);
-        }
-
-        public static void SumOptional(int a, int b = 10, int c = 20)
-        {
-            Console.WriteLine("The optional output is " + (a + b + c));
+            //Exit controlled loop
+            j = 0;
+            do
+            {
+                Console.WriteLine(j);
+                j++;
+            } while (j < 3);
         }
     }
 }
