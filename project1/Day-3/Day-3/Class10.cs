@@ -6,7 +6,7 @@ namespace Day_3
 {
     class Class10
     {
-        public static void Main()
+        public static void Main11()
         {
             //odd and even using array
             int[] a = new int[5];
