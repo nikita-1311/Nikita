@@ -6,7 +6,7 @@ namespace Day_3
 {
     class Class9
     {
-        public static void Main()
+        public static void Main10()
         {
             //array
             int[] sampleaaray = new int[3];

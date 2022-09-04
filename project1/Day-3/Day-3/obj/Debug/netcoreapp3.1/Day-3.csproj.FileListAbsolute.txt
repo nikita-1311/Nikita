@@ -11,3 +11,4 @@ C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\Day-3\Day-3\obj\Debug\netcoreapp
 C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\Day-3\Day-3\obj\Debug\netcoreapp3.1\Day-3.dll
 C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\Day-3\Day-3\obj\Debug\netcoreapp3.1\Day-3.pdb
 C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\Day-3\Day-3\obj\Debug\netcoreapp3.1\Day-3.genruntimeconfig.cache
+C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\Day-3\Day-3\obj\Debug\netcoreapp3.1\Day-3.csproj.AssemblyReference.cache
