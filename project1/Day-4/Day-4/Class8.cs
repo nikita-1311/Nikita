@@ -23,7 +23,7 @@ namespace Day_4
     }
     class Class8
     {
-        public static void Main()
+        public static void Main9()
         {
             Derived d = new Derived();
             d.Show();
