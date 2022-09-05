@@ -29,7 +29,7 @@ namespace Day_4
     }
     class Class9
     {
-        public static void Main()
+        public static void Main10()
         {
             BabyDog d1 = new BabyDog();
             d1.eat();
