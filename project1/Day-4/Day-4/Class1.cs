@@ -6,7 +6,7 @@ namespace Day_4
 {
     class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
             //2d array accept from user
             int[,] matrix = new int[2, 2];
