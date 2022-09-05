@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Day_4
 {
+    //abstract class
     abstract class DummyS
     {
         public void show()
@@ -26,7 +27,7 @@ namespace Day_4
     }
     class Class10
     {
-        public static void Main()
+        public static void Main11()
         {
             DerviedDummy s = new DerviedDummy();
             s.show();
