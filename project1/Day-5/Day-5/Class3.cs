@@ -7,7 +7,7 @@ namespace Day_5
     //example
     class Class3
     {
-        public static void Main(string[] args)
+        public static void Main4(string[] args)
         {
             int n = 3;
             Person[] persons = new Person[n];
