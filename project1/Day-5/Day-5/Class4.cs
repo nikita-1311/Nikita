@@ -7,7 +7,7 @@ namespace Day_5
     //example 2
     class Class4
     {
-        public static void Main()
+        public static void Main5()
         {
             Person Person = new Person();
             Person.Greet();
@@ -19,7 +19,7 @@ namespace Day_5
             Student.Study();
 
             Teacher Teacher = new Teacher();
-            Teacher.SetAge(30);
+            Teacher.SetAge(32);
             Teacher.Greet();
             Teacher.ShowAge();
             Teacher.Explain();
