@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Day_5
 {
+    //Example of Animal using abstract
     abstract class Animal 
     {
         private string Name;
@@ -26,7 +27,7 @@ namespace Day_5
     }
     class Class2
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
 
             Dog dog = new Dog();
