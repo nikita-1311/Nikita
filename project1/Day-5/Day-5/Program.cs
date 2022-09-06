@@ -5,7 +5,7 @@ namespace Day_5
     class Program
     {
         //jagged array
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int[][] samplearray = new int[][]
             {
