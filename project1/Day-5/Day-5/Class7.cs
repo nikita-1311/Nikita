@@ -27,7 +27,7 @@ namespace Day_5
     }
     class Class7
     {
-        public static void Main()
+        public static void Main8()
         {
             Calculator c1 = new Calculator(10, 20);
             Calculator c2 = new Calculator(20, 20);
