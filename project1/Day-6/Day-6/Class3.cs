@@ -15,7 +15,7 @@ namespace Day_6
         }
         class Class3
         {
-            public static void Main()
+            public static void Main4()
             {
                 Demo1 demo1 = new Demo1();
                 Demo2 demo2 = new Demo2();
