@@ -24,7 +24,7 @@ namespace Day_6
         }
         public void study()
         {
-            Console.WriteLine("Student is studying: ");
+            Console.WriteLine("Student is studying! ");
         }
     }
     class Teacher:Person
@@ -35,23 +35,26 @@ namespace Day_6
         }
         public void explain()
         {
-            Console.WriteLine("Teacher is explaining");
+            Console.WriteLine("Teacher is explaining!");
         }
     }
     class Class1
     {
-        public static void main()
+        public static void Main()
         {
             int n = 3;
             Person[] persons = new Person[n];
+            Console.WriteLine("Enter the names: ");
             for (int i = 0; i < n; i++)
             {
                 if (i == 0)
                 {
+                    Console.WriteLine("Name of the teacher: ");
                     persons[i] = new Teacher(Console.ReadLine());
                 }
                 else
                 {
+                    Console.WriteLine("Name of the student: ");
                     persons[i] = new Student(Console.ReadLine());
                 }
             }
