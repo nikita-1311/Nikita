@@ -6,7 +6,7 @@ namespace Day_6
 {
     class Class4
     {
-        public static void Main()
+        public static void Main5()
         {
             //Boxing
             int i = 1;
