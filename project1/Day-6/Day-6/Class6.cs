@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Day_6
 {
+    //string
     class Class6
     {
         static int mchar=256;
@@ -12,7 +13,7 @@ namespace Day_6
             for (int i = 0; i < str.Length; i++)
                 cal[str[i]]++;
         }
-        public static void Main()
+        public static void Main7()
         {
             
             string str = "aabbcccddddeee";
