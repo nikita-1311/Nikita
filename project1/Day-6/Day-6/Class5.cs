@@ -54,7 +54,7 @@ namespace Day_6
     }
     class M : Class5
     {
-        public static void Main()
+        public static void Main6()
         {
 
             M obj = new M();
