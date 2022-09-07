@@ -15,6 +15,10 @@ namespace Day_6
         {
             return "My name is " + name;
         }
+        ~Person()
+        {
+            name = string.Empty;
+        }
     }
     class Student : Person
     {
@@ -40,7 +44,7 @@ namespace Day_6
     }
     class Class1
     {
-        public static void Main()
+        public static void Main2()
         {
             int n = 3;
             Person[] persons = new Person[n];
