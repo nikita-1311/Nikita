@@ -6,7 +6,8 @@ namespace Day_6
 {
     class Class2
     {
-        public static void Main()
+        //= vs ==
+        public static void Main3()
         {
             string s = "Nikita";
             char[] s1 = { 'N', 'i', 'k', 'i', 't', 'a' };
