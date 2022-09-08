@@ -27,7 +27,7 @@ namespace Day_7
     };
     class Class3
     {
-        public static void Main()
+        public static void Main4()
         {
 
             EmployeeN e = new EmployeeN();
