@@ -17,7 +17,7 @@ namespace Day_7
         }
         public void Area(double a)
         {
-
+           
         }
         public void Perimeter(double p)
         {
