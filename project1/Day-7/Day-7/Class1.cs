@@ -23,7 +23,7 @@ namespace Day_7
     }
         class Class1
         {
-        public static void Main()
+        public static void Main2()
         {
             SampleCopyConstructor s1 = new SampleCopyConstructor("Nikita");
             s1.print();
