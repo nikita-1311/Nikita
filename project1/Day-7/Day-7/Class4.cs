@@ -17,7 +17,7 @@ namespace Day_7
     }
     class Class4
     {
-        public static void Main()
+        public static void Main5()
         {
             Console.WriteLine(week.Sunday);
             Console.WriteLine((int)week.Sunday);
