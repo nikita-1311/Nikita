@@ -40,7 +40,7 @@ namespace Day_8
     }
     class Class3
     {
-        public static void Main()
+        public static void Main4()
         {
             List<Employee> l = new List<Employee>();
             int choice;
@@ -53,20 +53,28 @@ namespace Day_8
                 {
                     case 1:
                         Console.WriteLine("Enter Employee Details: ");
-                        for (int i = 1; i <= n; i++)
-                        {
-                            Console.WriteLine("Enter employee ID: ");
-                            int eid = Convert.ToInt32(Console.ReadLine());
-                            Console.WriteLine("Enter employee name: ");
-                            string enm = Console.ReadLine();
-                            Console.WriteLine("Enter employee gender: ");
-                            string gen = Console.ReadLine();
-                            Console.WriteLine("Enter employee salary: ");
-                            int esal = Convert.ToInt32(Console.ReadLine());
-                            l.Add(new Employee(eid, enm, gen, esal));
-                        }
+                    for (int i = 1; i <= n; i++)
+                    {
+                        Console.WriteLine("Enter employee ID: ");
+                        int eid = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Enter employee name: ");
+                        string enm = Console.ReadLine();
+                        Console.WriteLine("Enter employee gender: ");
+                        string gen = Console.ReadLine();
+                        Console.WriteLine("Enter employee salary: ");
+                        int esal = Convert.ToInt32(Console.ReadLine());
+                        l.Add(new Employee(eid, enm, gen, esal));
+                    }
+                    foreach(var item in l)
+                    {
+                        Console.WriteLine("Emp Id:" + item.Id);
+                        Console.WriteLine("Emp Name:" + item.Name);
+                        Console.WriteLine("Emp Gender:" + item.Gender);
+                        Console.WriteLine("Emp Salary:" + item.Salary);
+                    }
                         break;
-                    default:
+               
+                default:
                         Console.WriteLine("Enter valid choice");
                         break;
                 }
