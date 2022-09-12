@@ -5,7 +5,7 @@ namespace Day_9
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //File Handling
             System.IO.FileStream fs = new FileStream("sample.txt",FileMode.Append,FileAccess.Write);//write operation
@@ -21,13 +21,11 @@ namespace Day_9
             StreamReader sr = new StreamReader(fsr);
             Console.WriteLine("=======Content of File========");
             sr.BaseStream.Seek(0, SeekOrigin.Begin);
-            while(str!=null)
+            while (str != null)
             {
                 Console.WriteLine(str);
-                str = sr.ReadLine();
+                sr.ReadLine();
             }
-            sr.Close();
-            fsr.Close();
 
         }
     }
