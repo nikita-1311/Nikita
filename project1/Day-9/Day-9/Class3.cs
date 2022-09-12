@@ -23,7 +23,7 @@ namespace Day_9
     }
     class Class3
     {
-        public static void Main()
+        public static void Main4()
         {
             List<Employee> employeeList = new List<Employee>();
             Employee e = new Employee();
