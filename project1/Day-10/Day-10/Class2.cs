@@ -37,7 +37,7 @@ namespace Day_10
             Console.WriteLine("Please enter your BookID");
                 BookId = Convert.ToInt32(Console.ReadLine());
             //Check Validations of Id
-                if (!(BookId>=0 && BookId<6))
+                if (!(BookId>0 && BookId<5))
                 {
                 Console.WriteLine("Please Enter 5 Digit Number: ");
                 BookId = Convert.ToInt32(Console.ReadLine());
@@ -86,7 +86,7 @@ namespace Day_10
         }
         return new Book();
     }
-        public static void Main()
+        public static void Main3()
         {
         bool flag = true;
         //Create List Of Books
