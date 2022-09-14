@@ -5,12 +5,24 @@ select * from Student
 insert into Student values(1,'Nikita')
 insert into Student values(2,'Snehal')
 insert into Student values(3,'Sameer')
+
 select * from Student 
+
 select * from Student where roll=1
 select roll,sname from Student 
+
 select * from Student where roll in (1,2)
 select * from Student where roll not in (1,2)
 select * from Student where roll not in (3)
 select * from Student where roll=1
+
 delete from Student where roll=1
 select * from Student 
+
+drop table Student;
+
+alter table Student add subject varchar(10)
+select * from Student
+alter table Student drop column subject
+
+truncate table Student
