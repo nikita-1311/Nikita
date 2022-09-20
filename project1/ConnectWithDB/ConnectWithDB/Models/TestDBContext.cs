@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -8,6 +9,7 @@ namespace ConnectWithDB.Models
 {
     public partial class TestDBContext : DbContext
     {
+
         public TestDBContext()
         {
         }
@@ -19,7 +21,9 @@ namespace ConnectWithDB.Models
 
         public virtual DbSet<Test> Tests { get; set; }
         public object Test { get; internal set; }
-
+        public virtual DbSet<Emp> Emps { get; set; }
+        public object Emp { get; internal set; }
+       
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -37,9 +41,15 @@ namespace ConnectWithDB.Models
             {
                 entity.ToTable("test");
 
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.Property(e => e.Text)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+            });
+            modelBuilder.Entity<Emp>(entity =>
+            {
+                entity.ToTable("Emp");
+
+                entity.Property(e => e.Ename)
                     .HasMaxLength(50)
                     .IsUnicode(false);
             });
