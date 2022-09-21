@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dtabase", "Dtabase\Dtabase.csproj", "{7139660C-2EB4-442A-9084-CA2E6C6D6070}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7139660C-2EB4-442A-9084-CA2E6C6D6070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7139660C-2EB4-442A-9084-CA2E6C6D6070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7139660C-2EB4-442A-9084-CA2E6C6D6070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7139660C-2EB4-442A-9084-CA2E6C6D6070}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {455023D6-E625-4428-AA42-86D924B1B24E}
+	EndGlobalSection
+EndGlobal

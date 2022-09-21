@@ -23,7 +23,9 @@ namespace ConnectWithDB.Models
         public object Test { get; internal set; }
         public virtual DbSet<Emp> Emps { get; set; }
         public object Emp { get; internal set; }
-       
+        public virtual DbSet<Dtbl> Dtbls { get; set; }
+        public string Dtbl { get; internal set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)

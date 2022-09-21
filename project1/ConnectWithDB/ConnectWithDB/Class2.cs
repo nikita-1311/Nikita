@@ -16,7 +16,7 @@ namespace ConnectWithDB
                 Console.WriteLine(item.Id + "   " + item.Ename + "   " + item.Salary + "   ");
             }
         }
-        public static void Main()
+        public static void Main3()
         {
             TestDBContext db1 = new TestDBContext();
             var data = db1.Emps;

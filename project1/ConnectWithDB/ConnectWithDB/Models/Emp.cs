@@ -11,6 +11,6 @@ namespace ConnectWithDB.Models
         public int Id { get; set; }
         public string Ename { get; set; }
         public int Salary { get; set; }
-        public object Did { get; internal set; }
+        public int Did { get; set; }
     }
 }
