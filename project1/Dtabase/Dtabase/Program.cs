@@ -6,7 +6,7 @@ namespace Dtabase
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             StdContext db = new StdContext();
             var data = db.Students.Join(
@@ -17,7 +17,7 @@ namespace Dtabase
                               Gender = z.x.Gender,
                               CourseName = z.y.CourseName,
                               SubName = s.SubName});
-            Console.WriteLine("StdId | SName | Gender | CourseId  | SubjectName");
+            Console.WriteLine("StdId | SName | Gender | CourseName  | SubjectName");
             foreach (var item in data)
             {
                 Console.WriteLine(item.id + "      " + item.Sname + "      " + item.Gender + "       " + item.CourseName + "      " + item.SubName);
