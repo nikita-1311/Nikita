@@ -25,5 +25,20 @@ namespace CustomerApi.Controllers
             db.SaveChanges();
             return Ok(new { status = "your record is added suceessfully" });
         }
+        [HttpPut]
+        public IActionResult put(Customertbl customer)
+        {
+            db.Customertbls.Update(customer);
+            db.SaveChanges();
+            return Ok(new { status = "your record is updated suceessfully" });
+        }
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var customer = db.Customertbls.Where(x => x.Id == id).FirstOrDefault();
+            db.Customertbls.Remove(customer);
+            db.SaveChanges();
+            return Ok(new { status = "your record is deleted suceessfully" });
+        }
     }
 }
