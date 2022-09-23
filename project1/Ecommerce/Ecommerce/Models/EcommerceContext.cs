@@ -18,16 +18,18 @@ namespace Ecommerce.Models
         }
 
         public virtual DbSet<Category> Categories { get; set; }
+        public virtual DbSet<Login> Logins { get; set; }
         public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<Reg> Regs { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
                 optionsBuilder.UseSqlServer("Data Source=LAPTOP-FIB1T83F;Initial Catalog=Ecommerce;Integrated Security=True");
             }
-        }
+        }*/
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -44,6 +46,37 @@ namespace Ecommerce.Models
                     .HasColumnName("CId");
 
                 entity.Property(e => e.CategoryName)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<Login>(entity =>
+            {
+                entity.HasKey(e => e.Lid);
+
+                entity.ToTable("Login");
+
+                entity.Property(e => e.Lid)
+                    .ValueGeneratedNever()
+                    .HasColumnName("LId");
+
+                entity.Property(e => e.FirstName)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Gender)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.LastName)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Password)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.UserName)
                     .HasMaxLength(50)
                     .IsUnicode(false);
             });
@@ -65,6 +98,37 @@ namespace Ecommerce.Models
                     .IsUnicode(false);
 
                 entity.Property(e => e.ProductName)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<Reg>(entity =>
+            {
+                entity.HasKey(e => e.Rid);
+
+                entity.ToTable("Reg");
+
+                entity.Property(e => e.Rid)
+                    .ValueGeneratedNever()
+                    .HasColumnName("RId");
+
+                entity.Property(e => e.FirstName)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Gender)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.LastName)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Password)
+                    .HasMaxLength(10)
+                    .IsFixedLength(true);
+
+                entity.Property(e => e.UserName)
                     .HasMaxLength(50)
                     .IsUnicode(false);
             });
