@@ -1,0 +1,10 @@
+C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\WebApp\Members.Data\bin\Debug\netcoreapp3.1\Members.Data.deps.json
+C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\WebApp\Members.Data\bin\Debug\netcoreapp3.1\Members.Data.dll
+C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\WebApp\Members.Data\bin\Debug\netcoreapp3.1\Members.Data.pdb
+C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\WebApp\Members.Data\obj\Debug\netcoreapp3.1\Members.Data.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\WebApp\Members.Data\obj\Debug\netcoreapp3.1\Members.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\WebApp\Members.Data\obj\Debug\netcoreapp3.1\Members.Data.AssemblyInfoInputs.cache
+C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\WebApp\Members.Data\obj\Debug\netcoreapp3.1\Members.Data.AssemblyInfo.cs
+C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\WebApp\Members.Data\obj\Debug\netcoreapp3.1\Members.Data.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\WebApp\Members.Data\obj\Debug\netcoreapp3.1\Members.Data.dll
+C:\Users\ADMIN\OneDrive\Desktop\nikita\project1\WebApp\Members.Data\obj\Debug\netcoreapp3.1\Members.Data.pdb
